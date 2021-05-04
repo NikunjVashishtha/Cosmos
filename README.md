@@ -9,5 +9,7 @@ Visit [Cosmos](https://cosmos-in.web.app/), it's waiting to be created, modified
 #### Developer's corner: 
 You may suggest, what can be added by being active in creating pull request, issues and discussions. 
 
-Written in `HTML/CSS/JS` 
+#### Projects under Evolution:
+- [Cosmopedia](https://cosmopedia-in.web.app)
+- [Cosmos SE](https://cosmos-in.web.app)
 >Note: Cosmos is not a certified/authorized organization yet.
