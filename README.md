@@ -7,7 +7,9 @@ Visit [Cosmos](https://cosmos-in.web.app/), it's waiting to be created, modified
 >We create 'What the world needs' <br/>Nikunj Vashishtha , Cosmos 
 
 #### Developer's corner: 
-You may suggest, what can be added by being active in creating pull request, issues and discussions. 
+You may suggest, what can be added by being active in creating pull request, raising issues and making discussions.  
+Developers can also join our server at Discord.   
+https://discord.gg/ZruCPTB
 
 #### Projects under Evolution:
 - [Cosmopedia](https://cosmopedia-in.web.app)
