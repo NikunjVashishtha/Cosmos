@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS Music Productions</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-image: url("mc_prod_back.jpg");
+            background-size: cover;
+            text-align:center;
+            color: aliceblue;
+        }
+        #head1 {
+            font-family: 'Indie Flower', cursive;
+            text-align: center;
+            font-size: 3rem;
+            color: aliceblue;
+        }
+        #cpy {
+            font-size: 0.5em;
+        }
+        #audio-player {
+            margin: 0 auto;
+            display: flex;
+        }
+        .cover {
+            width: 300px;
+            border-radius: 18px;
+        }
+        #player {
+            background-color: rgba(255, 255, 255, 0.849);
+            margin: 0 30rem;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        #player h1{
+            color: black;
+        }
+        #credits {
+            color: black;
+            font-family: 'Palette Mosaic', cursive;
+        }
+        @media screen and (max-width: 320px) {
+            #player {
+                margin: 0 5rem;
+            }
+            .cover {
+                width: 2rem;
+            }
+        }
+        @media screen and (min-width: 1024px) and (max-width: 1208px) {
+            #player {
+            margin: 0 15rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head1">COSMOS<sup id="cpy">©</sup> Music Productions</h1>
+    <div id="player">
+        <h1>COSMOS Theme</h1>
+        <img class="cover" src="Cosmos_Remix_icon.jpg" alt="Cosmos_Icon">
+        <h3 id="credits">Artist: Nikunj Vashishtha</h3>
+        <audio id="audio-player" src="Cosmos_Remix.mp3" type="audio/mp3" controls="controls"></audio>
+    </div>
+</body>
+</html>
